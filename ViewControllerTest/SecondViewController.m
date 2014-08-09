@@ -37,7 +37,7 @@
     label = [[LYLabel alloc] initWithFrame:self.view.bounds];
    // label.backgroundColor = [UIColor blackColor];
     label.textColor = [UIColor redColor];
-    label.font= [UIFont  systemFontOfSize:24];
+    label.font= [UIFont  systemFontOfSize:15];
     label.text = @"[眼睛]是]罚[点]啥][好的]`234[ 324[好的]1[好 dsfasd的]423[][][][[[]fdf]][[][234234";
     [self.view addSubview:label];
 }
