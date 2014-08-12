@@ -50,6 +50,7 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(200, 220, 40, 40) ;
     btn.backgroundColor= [UIColor blueColor];
+    [btn setTitle:@"切换" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(faceBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
