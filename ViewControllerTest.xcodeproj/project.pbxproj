@@ -21,7 +21,8 @@
 		BA1E28BA1993895E001F204D /* ViewControllerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E28B91993895E001F204D /* ViewControllerTestTests.m */; };
 		BA1E28C519938974001F204D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E28C419938974001F204D /* RootViewController.m */; };
 		BA1E28C81993898A001F204D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E28C71993898A001F204D /* SecondViewController.m */; };
-		BA1E28CB19952922001F204D /* LYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E28CA19952922001F204D /* LYLabel.m */; };
+		BA395A53199A0ED1000B4E5A /* LYRIchLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E28CA19952922001F204D /* LYRIchLabel.m */; };
+		BA4D4DE41999A88400DFB514 /* FaceDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D4DE31999A88400DFB514 /* FaceDetailView.m */; };
 		BA660ACE1995344D007CC7DC /* 话题按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = BA660ACD1995344D007CC7DC /* 话题按钮.png */; };
 		BA660B471995EDDB007CC7DC /* emoji_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BA660AD01995EDDB007CC7DC /* emoji_1.png */; };
 		BA660B481995EDDB007CC7DC /* emoji_10.png in Resources */ = {isa = PBXBuildFile; fileRef = BA660AD11995EDDB007CC7DC /* emoji_10.png */; };
@@ -143,6 +144,8 @@
 		BA660BBC1995EDDB007CC7DC /* face_del_ico_dafeult.png in Resources */ = {isa = PBXBuildFile; fileRef = BA660B451995EDDB007CC7DC /* face_del_ico_dafeult.png */; };
 		BA660BBD1995EDDB007CC7DC /* face_del_ico_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = BA660B461995EDDB007CC7DC /* face_del_ico_pressed.png */; };
 		BA660BBF1995EEA9007CC7DC /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA660BBE1995EEA9007CC7DC /* Emoji.plist */; };
+		BAA6AAB01999B59400DFCE10 /* EmojiTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA6AAAF1999B59400DFCE10 /* EmojiTextView.m */; };
+		BAB295EA19988D8A0066DA47 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB295E919988D8A0066DA47 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,8 +179,9 @@
 		BA1E28C419938974001F204D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		BA1E28C61993898A001F204D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		BA1E28C71993898A001F204D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		BA1E28C919952922001F204D /* LYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLabel.h; sourceTree = "<group>"; };
-		BA1E28CA19952922001F204D /* LYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLabel.m; sourceTree = "<group>"; };
+		BA1E28C919952922001F204D /* LYRichLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRichLabel.h; sourceTree = "<group>"; };
+		BA1E28CA19952922001F204D /* LYRIchLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRIchLabel.m; sourceTree = "<group>"; };
+		BA4D4DE31999A88400DFB514 /* FaceDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetailView.m; sourceTree = "<group>"; };
 		BA660ACD1995344D007CC7DC /* 话题按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "话题按钮.png"; sourceTree = "<group>"; };
 		BA660AD01995EDDB007CC7DC /* emoji_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_1.png; sourceTree = "<group>"; };
 		BA660AD11995EDDB007CC7DC /* emoji_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_10.png; sourceTree = "<group>"; };
@@ -299,6 +303,11 @@
 		BA660B451995EDDB007CC7DC /* face_del_ico_dafeult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_del_ico_dafeult.png; sourceTree = "<group>"; };
 		BA660B461995EDDB007CC7DC /* face_del_ico_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_del_ico_pressed.png; sourceTree = "<group>"; };
 		BA660BBE1995EEA9007CC7DC /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		BA7E51031998C51E00BB45E8 /* FaceDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetailView.h; sourceTree = "<group>"; };
+		BAA6AAAE1999B59400DFCE10 /* EmojiTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiTextView.h; sourceTree = "<group>"; };
+		BAA6AAAF1999B59400DFCE10 /* EmojiTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiTextView.m; sourceTree = "<group>"; };
+		BAB295E819988D8A0066DA47 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		BAB295E919988D8A0066DA47 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,10 +374,16 @@
 				BA1E28A41993895E001F204D /* AppDelegate.m */,
 				BA1E28C319938974001F204D /* RootViewController.h */,
 				BA1E28C419938974001F204D /* RootViewController.m */,
-				BA1E28C919952922001F204D /* LYLabel.h */,
-				BA1E28CA19952922001F204D /* LYLabel.m */,
 				BA1E28C61993898A001F204D /* SecondViewController.h */,
 				BA1E28C71993898A001F204D /* SecondViewController.m */,
+				BA1E28C919952922001F204D /* LYRichLabel.h */,
+				BA1E28CA19952922001F204D /* LYRIchLabel.m */,
+				BAB295E819988D8A0066DA47 /* FaceView.h */,
+				BAB295E919988D8A0066DA47 /* FaceView.m */,
+				BA7E51031998C51E00BB45E8 /* FaceDetailView.h */,
+				BA4D4DE31999A88400DFB514 /* FaceDetailView.m */,
+				BAA6AAAE1999B59400DFCE10 /* EmojiTextView.h */,
+				BAA6AAAF1999B59400DFCE10 /* EmojiTextView.m */,
 				BA1E28A61993895E001F204D /* Images.xcassets */,
 				BA1E289B1993895E001F204D /* Supporting Files */,
 			);
@@ -746,11 +761,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA395A53199A0ED1000B4E5A /* LYRIchLabel.m in Sources */,
+				BAB295EA19988D8A0066DA47 /* FaceView.m in Sources */,
 				BA1E28C81993898A001F204D /* SecondViewController.m in Sources */,
 				BA1E28A51993895E001F204D /* AppDelegate.m in Sources */,
 				BA1E28A11993895E001F204D /* main.m in Sources */,
+				BA4D4DE41999A88400DFB514 /* FaceDetailView.m in Sources */,
 				BA1E28C519938974001F204D /* RootViewController.m in Sources */,
-				BA1E28CB19952922001F204D /* LYLabel.m in Sources */,
+				BAA6AAB01999B59400DFCE10 /* EmojiTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,9 +843,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -861,6 +880,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};

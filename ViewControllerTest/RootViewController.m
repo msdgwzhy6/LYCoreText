@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        NSLog(@"%s",__FUNCTION__);
+     
     }
     return self;
 }
@@ -27,7 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"%s",__FUNCTION__);
+    
     // Do any additional setup after loading the view.
     [self loaddata];
    
@@ -35,7 +35,7 @@
 
 -(void)loaddata{
 
-    NSLog(@"%s",__FUNCTION__);
+    
 
 }
 - (void)didReceiveMemoryWarning

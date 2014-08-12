@@ -8,15 +8,20 @@
 
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
-#import "LYLabel.h"
-@interface SecondViewController : RootViewController
+#import "LYRichLabel.h"
+#import "FaceView.h"
+#import "EmojiTextView.h"
+@interface SecondViewController : RootViewController<UITextViewDelegate,getFaceDelegete>
 {
 
     NSArray *array ;
     
-    LYLabel *label;
+    LYRichLabel *label;
     
-   
+  
+    FaceView *faceView;
+  //  FaceBoard *faceBoard;
+    BOOL isFacebord;
 
 }
 
